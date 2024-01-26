@@ -3,24 +3,24 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+Set negative values to zero
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+WeightedEnsemble_L2
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+Found features that could be extracted form data
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-TODO: Add your explanation
+Not much in my case
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-TODO: Add your explanation
+Had memory issues with num_bag_folds params, so tried some alternatives
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-TODO: Add your explanation
+EDA
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
