@@ -45,4 +45,4 @@ TODO: Replace the image below with your own.
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+Measured the project across different features and hyperparamteres.
