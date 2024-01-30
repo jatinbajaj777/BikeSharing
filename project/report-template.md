@@ -28,16 +28,9 @@ EDA
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|default|default|default|?|
-|add_features|default|default|default|?|
-|hpo|'num_boost_round': 100,
-    'learning_rate':0.4|'num_boost_round': 100,
-    'learning_rate':0.4,num_leaves:100|
-    'num_boost_round': 100,
-    'learning_rate':0.6,
-    'num_leaves':100,
-    'metric':'rmse'
-|0.61000|
+|initial|default|default|default|0.52772|
+|add_features|default|default|default|0.51745|
+|hpo|num_boost_round: 100 learning_rate:0.4|'num_boost_round': 100,'learning_rate':0.4,num_leaves:100|'num_boost_round':100,'learning_rate':0.6,num_leaves':100,'metric':'rmse'|0.61000|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
