@@ -13,7 +13,10 @@ WeightedEnsemble_L2
 Found features that could be extracted form data
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-Not much in my case
+With hyperparams,
+it had about 15% improvement in kaggle score (0.61-0.52772/0.52772)
+With new features,
+It has about about 2% decrese in kaggle score (0.51-0.52772/0.52772)
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
@@ -29,7 +32,12 @@ EDA
 |add_features|default|default|default|?|
 |hpo|'num_boost_round': 100,
     'learning_rate':0.4|'num_boost_round': 100,
-    'learning_rate':0.4,num_leaves:100||?|
+    'learning_rate':0.4,num_leaves:100|
+    'num_boost_round': 100,
+    'learning_rate':0.6,
+    'num_leaves':100,
+    'metric':'rmse'
+|0.61000|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
